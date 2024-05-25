@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(238, 213, 238);
+}
+
+.header{
+    background-color: rgb(252, 241, 252);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 90px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: rgb(204, 66, 124);
+    text-decoration: none;
+}
+.header .nav-links li a:hover{
+    color: rgb(204, 163, 241);
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: rgb(226, 23, 141);
+    padding: 9px 25px;
+    background: rgb(240, 219, 245);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: rgb(237, 218, 241);
+    color: rgb(176, 8, 182);
+    transform: scale(1.1);
+}
